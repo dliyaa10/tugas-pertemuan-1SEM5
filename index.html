@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Zahra</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f4f7;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 850px;
+            max-width: 95%;
+            margin: 40px auto;
+            background-color: white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        /* Bagian Header */
+        .header {
+            background-color: #294c60;
+            color: white;
+            padding: 35px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .foto {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        .header p {
+            font-size: 17px;
+        }
+
+        /* Isi */
+        .content {
+            padding: 35px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #294c60;
+            border-bottom: 2px solid #294c60;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            font-size: 21px;
+        }
+
+        /* Biodata */
+        .biodata {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            row-gap: 8px;
+        }
+
+        .biodata strong {
+            color: #444;
+        }
+
+        /* Pendidikan & pengalaman */
+        .item {
+            margin-bottom: 18px;
+        }
+
+        .item h3 {
+            color: #294c60;
+            margin-bottom: 3px;
+        }
+
+        .item p {
+            color: #555;
+        }
+
+        /* Skill */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #e7eef2;
+            color: #294c60;
+            padding: 7px 14px;
+            border-radius: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f4f7;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .biodata {
+                grid-template-columns: 1fr;
+            }
+
+            .container {
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- HEADER -->
+        <div class="header">
+
+            <!-- Foto dari internet -->
+            <img 
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300"
+                alt="Foto Profil"
+                class="foto"
+            >
+
+            <div>
+                <h1>Alya Dliya</h1>
+                <p>Mahasiswa STT Terpadu Nurul Fikri</p>
+            </div>
+
+        </div>
+
+
+        <div class="content">
+
+            <!-- BIODATA -->
+            <div class="section">
+                <h2>Biografi Lengkap</h2>
+
+                <div class="biodata">
+
+                    <strong>Nama Lengkap</strong>
+                    <span>Alya Dliya</span>
+
+                    <strong>Tempat, Tanggal Lahir</strong>
+                    <span>10 Desember 2004</span>
+
+                    <strong>Jenis Kelamin</strong>
+                    <span>Perempuan</span>
+
+                    <strong>Alamat</strong>
+                    <span>BojongGede, Bogor</span>
+
+                    <strong>Email</strong>
+                    <span>alyadliya@example.com</span>
+
+                    <strong>No. HP</strong>
+                    <span>081234567890</span>
+
+                    <strong>Kampus</strong>
+                    <span>STT Terpadu Nurul Fikri</span>
+
+                    <strong>Status</strong>
+                    <span>Mahasiswa Aktif</span>
+
+                </div>
+            </div>
+
+
+            <!-- TENTANG SAYA -->
+            <div class="section">
+                <h2>Tentang Saya</h2>
+
+                <p>
+                    Saya merupakan mahasiswa aktif STT Terpadu Nurul Fikri
+                    yang memiliki ketertarikan dalam bidang teknologi,
+                    organisasi, serta pengembangan diri. Saya memiliki
+                    pengalaman dalam kegiatan organisasi dan kepanitiaan
+                    serta terbiasa bekerja sama dalam sebuah tim.
+                </p>
+            </div>
+
+
+            <!-- PENDIDIKAN -->
+            <div class="section">
+                <h2>Pendidikan</h2>
+
+                <div class="item">
+                    <h3>STT Terpadu Nurul Fikri</h3>
+                    <p>Mahasiswa Aktif</p>
+                    <p>2024 - Sekarang</p>
+                </div>
+
+                <div class="item">
+                    <h3>Sekolah Menengah</h3>
+                    <p>Nama Sekolah</p>
+                    <p>Tahun Lulus: 2024</p>
+                </div>
+            </div>
+
+
+            <!-- PENGALAMAN -->
+            <div class="section">
+                <h2>Pengalaman</h2>
+
+                <div class="item">
+                    <h3>Kabiro PSDM - LDK Senada</h3>
+                    <p>
+                        Berperan dalam mengelola dan mengembangkan anggota
+                        biro serta membantu koordinasi kegiatan organisasi.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h3>Mentor Kampus</h3>
+                    <p>
+                        Mendampingi dan membantu mahasiswa dalam kegiatan
+                        mentoring selama satu tahun.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h3>Panitia Kegiatan</h3>
+                    <p>
+                        Berpengalaman dalam beberapa kegiatan kepanitiaan,
+                        seperti Wisuda Tahfidz, Kajian Senada, Islami Your
+                        Festival, dan Gerakan Menutup Aurat.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- ORGANISASI -->
+            <div class="section">
+                <h2>Organisasi</h2>
+
+                <div class="item">
+                    <h3>LDK Senada</h3>
+                    <p>
+                        Staff PSDM dan Kabiro PSDM
+                    </p>
+                </div>
+
+            </div>
+
+
+            <!-- KEAHLIAN -->
+            <div class="section">
+                <h2>Keahlian</h2>
+
+                <div class="skills">
+                    <span class="skill">Public Speaking</span>
+                    <span class="skill">Leadership</span>
+                    <span class="skill">Teamwork</span>
+                    <span class="skill">Komunikasi</span>
+                    <span class="skill">Microsoft Office</span>
+                    <span class="skill">Manajemen Waktu</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER -->
+        <div class="footer">
+            © 2026 Alya Dliya - STT Terpadu Nurul Fikri
+        </div>
+
+    </div>
+
+</body>
+</html>
