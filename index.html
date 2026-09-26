@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière Beauty | Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- CSS Sendiri -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+    <div class="container">
+
+        <a class="navbar-brand logo" href="index.html">
+            <span class="logo-icon">
+                <i class="bi bi-flower1"></i>
+            </span>
+            Lumière
+        </a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="home.html">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="study.html">
+                        MyStudy
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">
+                        Gallery
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="datatables.html">
+                        Datatable
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">
+                        Login
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= HEADER / CAROUSEL ================= -->
+
+<section class="hero-section">
+
+    <div id="beautyCarousel"
+         class="carousel slide carousel-fade"
+         data-bs-ride="carousel">
+
+        <!-- Indicator -->
+        <div class="carousel-indicators">
+
+            <button type="button"
+                    data-bs-target="#beautyCarousel"
+                    data-bs-slide-to="0"
+                    class="active"></button>
+
+            <button type="button"
+                    data-bs-target="#beautyCarousel"
+                    data-bs-slide-to="1"></button>
+
+            <button type="button"
+                    data-bs-target="#beautyCarousel"
+                    data-bs-slide-to="2"></button>
+
+        </div>
+
+
+        <!-- Gambar Carousel -->
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+
+                <img src="images/ben1.jpg"
+                     class="d-block w-100 carousel-image"
+                     alt="Beauty Banner 1">
+
+                <div class="carousel-caption">
+                    <span class="small-label">LUMIÈRE BEAUTY</span>
+
+                    <h1>
+                        Celebrate Your
+                        <span>Natural Beauty</span>
+                    </h1>
+
+                    <p>
+                        Temukan inspirasi untuk merawat,
+                        mengenal, dan mencintai diri sendiri.
+                    </p>
+
+                    <a href="gallery.html"
+                       class="btn btn-beauty">
+                        Explore Gallery
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+
+                <img src="images/ben2.jpg"
+                     class="d-block w-100 carousel-image"
+                     alt="Beauty Banner 2">
+
+                <div class="carousel-caption">
+
+                    <span class="small-label">
+                        SELF CARE
+                    </span>
+
+                    <h1>
+                        Beauty Begins
+                        <span>With Self Love</span>
+                    </h1>
+
+                    <p>
+                        Rawat diri dengan cara sederhana
+                        dan penuh kasih.
+                    </p>
+
+                    <a href="home.html"
+                       class="btn btn-beauty">
+                        Discover More
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+
+                <img src="images/banner3.jpg"
+                     class="d-block w-100 carousel-image"
+                     alt="Beauty Banner 3">
+
+                <div class="carousel-caption">
+
+                    <span class="small-label">
+                        BEAUTY JOURNEY
+                    </span>
+
+                    <h1>
+                        Your Beauty,
+                        <span>Your Story</span>
+                    </h1>
+
+                    <p>
+                        Setiap perempuan memiliki cerita
+                        dan pesonanya sendiri.
+                    </p>
+
+                    <a href="gallery.html"
+                       class="btn btn-beauty">
+                        View Gallery
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Previous -->
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#beautyCarousel"
+                data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+
+        </button>
+
+
+        <!-- Next -->
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#beautyCarousel"
+                data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MAIN CONTENT ================= -->
+
+<main class="container main-container">
+
+    <div class="row g-4">
+
+
+        <!-- ================= LEFT CONTENT ================= -->
+
+        <div class="col-lg-8">
+
+            <div class="content-card">
+
+                <span class="section-label">
+                    WELCOME
+                </span>
+
+                <h2>
+                    Welcome to
+                    <span>Lumière Beauty</span>
+                </h2>
+
+                <p class="lead-text">
+                    Lumière Beauty adalah ruang sederhana untuk
+                    mengenal dunia kecantikan, self-care,
+                    dan perjalanan mencintai diri sendiri.
+                </p>
+
+                <p>
+                    Website ini dibuat sebagai media pembelajaran
+                    sekaligus ruang untuk berbagi inspirasi mengenai
+                    kecantikan yang tidak hanya tentang penampilan,
+                    tetapi juga tentang rasa percaya diri dan
+                    bagaimana seseorang menghargai dirinya sendiri.
+                </p>
+
+
+                <!-- Feature -->
+                <div class="row mt-4 g-3">
+
+                    <div class="col-md-4">
+
+                        <div class="feature-box">
+
+                            <i class="bi bi-stars"></i>
+
+                            <h5>Beauty</h5>
+
+                            <p>
+                                Mengenal berbagai inspirasi
+                                kecantikan.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="feature-box">
+
+                            <i class="bi bi-heart"></i>
+
+                            <h5>Self Love</h5>
+
+                            <p>
+                                Belajar menghargai diri sendiri.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="feature-box">
+
+                            <i class="bi bi-flower1"></i>
+
+                            <h5>Self Care</h5>
+
+                            <p>
+                                Merawat diri dengan sederhana.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ABOUT -->
+            <div class="content-card mt-4">
+
+                <div class="row align-items-center g-4">
+
+                    <div class="col-md-5">
+
+                        <img src="images/beauty1.jpg"
+                             class="img-fluid rounded-beauty"
+                             alt="Beauty">
+
+                    </div>
+
+
+                    <div class="col-md-7">
+
+                        <span class="section-label">
+                            ABOUT
+                        </span>
+
+                        <h3>
+                            Beauty is a
+                            <span>Journey</span>
+                        </h3>
+
+                        <p>
+                            Kecantikan tidak selalu harus terlihat
+                            sempurna. Setiap orang memiliki karakter,
+                            gaya, dan cerita yang membuat dirinya
+                            berbeda.
+                        </p>
+
+                        <a href="gallery.html"
+                           class="btn btn-outline-beauty">
+                            Lihat Gallery
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ================= RIGHT CONTENT ================= -->
+
+        <div class="col-lg-4">
+
+            <div class="sidebar-card">
+
+                <div class="sidebar-title">
+
+                    <i class="bi bi-link-45deg"></i>
+
+                    <h4>
+                        Beauty Resources
+                    </h4>
+
+                </div>
+
+                <p>
+                    Beberapa website yang dapat
+                    dikunjungi untuk mendapatkan
+                    informasi tambahan.
+                </p>
+
+
+                <!-- External Links -->
+
+                <a href="https://www.nfacademy.id/"
+                   target="_blank"
+                   class="external-link">
+
+                    <span>
+                        <i class="bi bi-mortarboard"></i>
+                        NF Academy
+                    </span>
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+
+                <a href="https://nurulfikri.ac.id/"
+                   target="_blank"
+                   class="external-link">
+
+                    <span>
+                        <i class="bi bi-building"></i>
+                        STT Terpadu Nurul Fikri
+                    </span>
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+
+                <a href="https://www.canva.com/"
+                   target="_blank"
+                   class="external-link">
+
+                    <span>
+                        <i class="bi bi-palette"></i>
+                        Canva
+                    </span>
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+
+                <a href="https://www.pinterest.com/"
+                   target="_blank"
+                   class="external-link">
+
+                    <span>
+                        <i class="bi bi-pin-angle"></i>
+                        Pinterest
+                    </span>
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+
+                <a href="https://getbootstrap.com/"
+                   target="_blank"
+                   class="external-link">
+
+                    <span>
+                        <i class="bi bi-bootstrap"></i>
+                        Bootstrap
+                    </span>
+
+                    <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+            </div>
+
+
+            <!-- QUICK MENU -->
+
+            <div class="sidebar-card mt-4">
+
+                <div class="sidebar-title">
+
+                    <i class="bi bi-grid"></i>
+
+                    <h4>
+                        Quick Menu
+                    </h4>
+
+                </div>
+
+
+                <a href="home.html"
+                   class="quick-link">
+
+                    <i class="bi bi-person-circle"></i>
+
+                    Personal Profile
+
+                </a>
+
+
+                <a href="study.html"
+                   class="quick-link">
+
+                    <i class="bi bi-book"></i>
+
+                    My Study
+
+                </a>
+
+
+                <a href="gallery.html"
+                   class="quick-link">
+
+                    <i class="bi bi-images"></i>
+
+                    Gallery
+
+                </a>
+
+
+                <a href="datatables.html"
+                   class="quick-link">
+
+                    <i class="bi bi-table"></i>
+
+                    Datatable
+
+                </a>
+
+
+                <a href="login.html"
+                   class="quick-link">
+
+                    <i class="bi bi-box-arrow-in-right"></i>
+
+                    Login
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+
+                <h4>
+                    <i class="bi bi-flower1"></i>
+                    Lumière Beauty
+                </h4>
+
+                <p>
+                    Website pembelajaran RWD Bootstrap
+                    dengan tema beauty dan self-care.
+                </p>
+
+            </div>
+
+
+            <div class="col-md-6 text-md-end">
+
+                <h5>
+                    Connect With Me
+                </h5>
+
+                <div class="social-icons">
+    <a href="https://www.instagram.com/" target="_blank" title="Instagram">
+        <i class="bi bi-instagram"></i>
+    </a>
+
+    <a href="https://wa.me/6281234567890" target="_blank" title="WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <a href="https://www.tiktok.com/" target="_blank" title="TikTok">
+        <i class="bi bi-tiktok"></i>
+    </a>
+
+    <a href="https://www.youtube.com/" target="_blank" title="YouTube">
+        <i class="bi bi-youtube"></i>
+    </a>
+</div>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <div class="text-center copyright">
+
+            <p>
+                © 2026 Lumière Beauty —
+                Dibuat oleh Alya Dliya Zahra Andre
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
